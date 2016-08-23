@@ -1,0 +1,115 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "name" : "Prix Calculator",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {320, 480}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "uuid" : "63391DF4-F38A-4438-B161-D5AEC708C6E0",
+          "autocorrection_type" : "default",
+          "name" : "textfield1",
+          "custom_attributes" : "{'keyboard_type':ui.KEYBOARD_NUMBERS,'delegate':MyTextFieldDelegate}",
+          "class" : "TextField",
+          "alignment" : "left",
+          "spellchecking_type" : "default",
+          "frame" : "{{60, 224}, {200, 32}}"
+        },
+        "frame" : "{{0, 85}, {100, 45}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "uuid" : "63391DF4-F38A-4438-B161-D5AEC708C6E0",
+          "autocorrection_type" : "default",
+          "name" : "textfield2",
+          "custom_attributes" : "{'keyboard_type':ui.KEYBOARD_NUMBERS,'delegate':MyTextFieldDelegate}",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default"
+        },
+        "frame" : "{{108, 85}, {100, 45}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "uuid" : "63391DF4-F38A-4438-B161-D5AEC708C6E0",
+          "autocorrection_type" : "default",
+          "name" : "textfield3",
+          "custom_attributes" : "{'keyboard_type':ui.KEYBOARD_NUMBERS,'delegate':MyTextFieldDelegate}",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default"
+        },
+        "frame" : "{{220, 85}, {100, 45}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "qte",
+          "custom_attributes" : "{'keyboard_type':ui.KEYBOARD_NUMBERS,'delegate':MyTextFieldDelegate}",
+          "class" : "TextField",
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "63391DF4-F38A-4438-B161-D5AEC708C6E0"
+        },
+        "frame" : "{{108, 163}, {100, 45}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "prix_qte",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "69AECE6E-6074-4859-B489-090B9CB44EA3"
+        },
+        "frame" : "{{108, 236}, {100, 45}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
